@@ -14,7 +14,6 @@ class Solution {
                 end--;
                 continue;
             }
-            // Swap vowels
             char temp = ch[start];
             ch[start] = ch[end];
             ch[end] = temp;
@@ -25,7 +24,6 @@ class Solution {
         return new String(ch);
     }
 
-    // Corrected isVowel method
     private boolean isVowel(char ch) {
         return "aeiouAEIOU".indexOf(ch) != -1;
     }
