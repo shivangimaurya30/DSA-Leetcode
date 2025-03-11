@@ -20,10 +20,10 @@ class Solution {
     boolean solve(int[] piles,int mid,int h){
         int k=0;
         for(int i=0;i<piles.length;i++){
-            // int x=piles[i]/mid;
-            // if(piles[i]%mid!=0) x++;
-            // k+=x;
-            k+=Math.ceil( (double)piles[i]/(double)mid );
+            int x=piles[i]/mid;
+            if(piles[i]%mid!=0) x++;
+            k+=x;
+           
         }
         return h>=k;
     }
