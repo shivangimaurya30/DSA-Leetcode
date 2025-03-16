@@ -1,1 +1,1 @@
-This repository contains leetcode solution of DSA solved by me.
+This repository contains leetcode solution of DSA solved using Java language.
